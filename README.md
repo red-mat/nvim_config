@@ -1,4 +1,4 @@
-# VIM
+# VIM-CONFIG
 Configuracion personal para el vimrc
 
 ##Caracteristicas
