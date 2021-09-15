@@ -1,4 +1,4 @@
-# VIM-CONFIG
+# NVIM-CONFIG
 Configuracion personal para el vimrc
 
 ## Estructura
