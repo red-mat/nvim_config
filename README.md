@@ -12,3 +12,7 @@ El vimrc carga los componentes de la siguiente manera:
 
 ## Dependencias:
 1. Plug-Vim
+
+## Estado
+
+La configuracion no es funcional en este momento y puede presentar fallas
