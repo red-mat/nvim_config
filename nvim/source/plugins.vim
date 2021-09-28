@@ -1,7 +1,8 @@
 "Plugins del sistema"
-call plug#begin('~/.vim/plugged')
-"    Tema:
+call plug#begin('~/.config/nvim/plug')
+"    apariencia:
      Plug 'morhetz/gruvbox'
+     
 "    IDE:
      Plug 'easymotion/vim-easymotion'
      Plug 'scrooloose/nerdtree'
