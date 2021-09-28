@@ -7,3 +7,6 @@ RUN apt-get install sudo
 RUN apt-get install git
 
 RUN git clone https://www.github.com/Red-Mat/nvim_config.git
+RUN git checout deploy
+
+CMD bash
