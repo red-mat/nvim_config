@@ -3,7 +3,6 @@
 source ./sh/dependencias.sh
 source ./sh/main_functions.sh
 
-
 main(){
   local option=$1
 
@@ -13,7 +12,7 @@ main(){
       nvim_config:install
     ;;
     *)
-      error:invalidInput
+      errorInvalidInput
     ;;  
   esac
 }
