@@ -1,4 +1,8 @@
-source ./sh/dependencias_base.sh
+source ./source/base/git.sh
+source ./source/base/curl.sh
+source ./source/base/nvim.sh
+source ./source/base/vimPlug.sh
+
 
 insallBase(){
   checkGit || installGit
