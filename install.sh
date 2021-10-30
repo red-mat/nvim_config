@@ -41,7 +41,7 @@ main(){
       instalar_configuracion
     ;;
     *)
-      errorInvalidInput
+      echo ingrese la opcion --install por favor
     ;;  
   esac
 }
