@@ -1,3 +1,6 @@
+"Tecla_Lider:
+ let mapleader='h'
+
 "Desplazamiento:
  nnoremap j h
  nnoremap k j
@@ -17,8 +20,6 @@
 "Atajos:
  nmap <silent> <Leader>w :wq<CR>
  nmap <silent> <Leader>q :q!<CR>
-
- vmap <C-c> "+y
 
 "Salto De Linea:
  nnoremap gk gj
