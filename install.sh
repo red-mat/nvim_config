@@ -20,14 +20,18 @@ instalar_vimPlug(){
 }
 
 instalar_configuracion(){
+  local PATH_CONFIG=~/.config
+  local PATH_NVIM=$PATH_CONFIG/nvim
+
   echo "[ Instalando configuracion. ]"
-  [ -d ~/.config ] || mkdir ~/.config
-  
-  if ln -s $(pwd)/nvim ~/.config/nvim >/dev/null
+  [ -d $PATH_CONFIG ] || mkdir $PATH_CONFIG
+  [ -d $PATH_NVIM ] && rm -dr $PATH_NVIM
+
+  if ln -s $(pwd)/nvim $PATH_NVIM>/dev/null
   then
-    echo no se pudo crear el enlace virtual de nvim a ~/.config/nvim
-  else
     echo se creo el enlace virtual correctamente
+  else
+    echo no se pudo crear el enlace virtual de nvim a ~/.config/nvim
   fi
 }
 
